@@ -1,0 +1,50 @@
+@media screen and (max-width:768px){
+
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #f2f2f2;
+        width: 100%;
+        overflow: hidden;
+        transition: max-Height 0.6s;
+        opacity: 0.8;
+        margin-bottom: 10px;
+    }
+    nav ul li{
+        display: block;
+        margin: 10px 50px 10px 0;
+
+    }
+    nav ul li a{
+        color:#333333;
+        font-weight: 800;
+    }
+    .menu{
+        display: block;
+    }
+    .menu:hover{
+        opacity: 0.9;
+    }
+    .coloum-1 select{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+}
+@media screen and (max-width:500px){
+    .row{
+        text-align: center;
+    }
+    .coloum-1,.coloum-2,.coloum-3,.coloum-4,.footer--coloum1,
+    .footer--coloum2,.footer--coloum3,.footer--coloum4{
+        flex-basis: 100%;
+    }
+    .footer--coloum1,.footer--coloum2,.footer--coloum3,
+    .footer--coloum4{
+        margin-bottom: 40px;
+    }
+    .brands img{
+        width: 200px;
+    }
+}

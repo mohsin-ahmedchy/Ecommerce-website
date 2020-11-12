@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <!--Css link-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Media for responsive-->
+    <link rel="stylesheet" href="css/media.css">
+    <!--fontawesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha512-9BwLAVqqt6oFdXohPLuNHxhx36BVj5uGSGmizkmGkgl3uMSgNalKc/smum+GJU/TTP0jy0+ruwC3xNAk3F759A==" crossorigin="anonymous" />
+</head>
+<body>
+    <!--header section start-->
+    <div class="header">
+
+        <div class="container">
+            <!--Navbar start-->
+            <div class="navbar">
+                <div class="navbar--logo">
+                    <img src="images/logo.jpeg" alt="zara">
+                </div>
+                <nav>
+                    <ul id="menu-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="details.html">Details</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/card.png'.png" class="cart" width="40px" height="40px"></a> 
+                <img src="images/menu.png" class="menu" id="menu-btn">
+                
+        
+            </div>  
+             <!--Navbar end-->
+        </div>
+    </div>
+    <!--header section end-->
+
+    <!--Account section start-->
+    <div class="account-page">
+        <div class="row">
+            <div class="coloum-1">
+                <img src="images/backround.jpeg" alt="background" width="100%" >
+            </div>
+            <div class="coloum-1">
+                <div class="form-container">
+                    <div class="registration">
+                        <span onclick = "logForm()">SignIn</span>
+                        <span onclick = "regForm()">Register</span>
+                        <hr id="indicator">
+                    </div>
+                    <form id="register">
+                        <input type="text" placeholder="User__Name">
+                        <input type="email" placeholder="Enter Email">
+                        <input type="password" placeholder="Password">
+                        <a href="#" class="coloum-1__btn">Register Now</a>
+                    </form> 
+
+                   <form id="logIn">
+                       <input type="text" placeholder="User__Name">
+                       <input type="password" placeholder="Password">
+                       <button type="submit">LogIn</button>
+                       <a href="#"class="coloum-1__btn">Forget Password</a>
+                   </form> 
+                </div>
+            </div>
+    
+        </div>
+
+    </div>
+    
+    <!--Account section end-->
+
+    
+    
+    <!--Footer start-->
+    <div class="footer" id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="footer--coloum1">
+                    <h3>Download App</h3>
+                    <p>Download for Apple and Android Mobile.</p>
+                    <div class="store">
+                        <img src="images/appleStore.png">
+                        <img src="images/googleplaystore.png">
+
+                    </div>
+
+                </div>
+                <div class="footer--coloum2">
+                    <img src="images/logo.jpeg">
+                    <p>Our Purpose Is To Sustainably Make The Pleasure</p>
+
+                </div>
+                <div class="footer--coloum3">
+                    <h3>Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+
+                </div>
+                <div class="footer--coloum4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>LinkIn</li>
+                        <li>Instragram</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2020</p>
+        </div>
+
+    </div>
+     
+
+
+
+    <!--Footer end-->
+
+<script src="js/form.js"></script>
+    
+</body>
+</html>
